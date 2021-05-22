@@ -1,59 +1,78 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title> Gallery </title>
-    <link rel="stylesheet" href="style.css" type="text/css"/> 
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body style="background-color: #000;">
     <div id="main">
-        <div id="banner">
-            <img class="logo" src="logo1.jpg" alt="logo">
-            <!-- <div id="header"> <h1>HAPPY ONAM</h1>  -->
-        </div>
-
-        <div id="menu">
-            <ul>
-                <li><a href="home.html"> Home </a></li>
-                <li><a href="gallery.html"> Gallery </a></li>
-                <li><a href="history.html"> History </a></li>
-                <li><a href="contact.html"> Contact us </a></li>
-            </ul>
-
-        </div>
-        <div id="tab1">
-            <table cellpadding="5">
-                <tr>
-                    <td><img class="gall" src="gal1.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal2.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal3.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal4.jpg" alt="photo"></td>
-                </tr> 
-                <tr>
-                    <td><img class="gall" src="gal5.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal6.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal7.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal8.jpg" alt="photo"></td>
-                </tr> 
-                <tr>
-                    <td><img class="gall" src="gal9.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal10.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal11.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal12.jpg" alt="photo"></td>
-                </tr> 
-                <tr>
-                    <td><img class="gall" src="gal13.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal3.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal6.jpg" alt="photo"></td>
-                    <td><img class="gall" src="gal9.jpg" alt="photo"></td>
-                </tr> 
-            </table>
+        <div class="row">
+            <div class="col-12">
+                <div id="banner">
+                    <img class="logo" src="logo1.jpg" alt="logo">
+                </div>
             </div>
-        <div id="footer">
-            <center class="c1">© Copyright 2016 </center>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light mt-2 mb-2" style="background-color: #e6005c;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="gallery.html"> Gallery </a></li>
+                    <li><a href="history.html"> History </a></li>
+                    <li><a href="contact.html"> Contact us </a></li>
+                </ul>
+            </div>
+        </nav>
+            <div class="row ml-1 mr-1">
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid" style="height: 15rem;width: 100rem;"  src="gal1.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid" style="height: 15rem;width: 100rem;" src="gal2.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid"  style="height: 15rem;width: 100rem;" src="gal3.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid"  style="height: 15rem;width: 100rem;" src="gal4.jpg" alt="photo"></div>
         </div>
-    <br />
+            <div class="row ml-1 mr-1">
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal5.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal6.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal7.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal8.jpg" alt="photo"></div>
+            </div>
+            <div class="row ml-1 mr-1">
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal9.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal10.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal11.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal12.jpg" alt="photo"></div>
+            </div>
+            <div class="row ml-1 mr-1">
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal13.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal3.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal6.jpg" alt="photo"></div>
+                <div class="col-lg-3 col-sm-6 p-1"><img class="img-fluid rounted" style="height: 15rem;width: 100rem;" src="gal9.jpg" alt="photo"></div>
+            </div>
+            <footer class="bg-dark text-light">
+                <div class="row  p-3">
+                    <div class=" d-flex justify-content-center">© Copyright 2016 </div>
+                </div>
+            </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
